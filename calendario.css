@@ -1,0 +1,94 @@
+/* Creado por Ángel Hernández Ortiz. Última modificación 16/01/19 */
+body{
+    background-color:#81DAF5;
+    font-family: sans-serif;
+}
+
+article{
+    background-color: #EEE7C8;
+    width: 55%;
+    border: black 1px solid;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article table{
+    border-collapse: collapse;
+    
+}
+
+article.tipo1 table{
+    width: 50%;
+    border:none;
+    text-align: center;
+}
+
+article.tipo1 caption{
+    letter-spacing: 5px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+article.tipo1 td{
+    border-left: none;
+    border-right: none;
+}
+
+article.tipo1 th{
+    width: 3em;
+    border-left: none;
+    border-right: none;
+    border-top: none
+}
+
+article.tipo2 table{
+    width: 40%;
+    border: none;
+    text-align: end;
+}
+
+article.tipo2 caption{
+    text-align: end;
+    font-weight: bold;
+}
+
+article.tipo2 td{
+    border-top: none;
+    border-bottom: none;
+    font-size: 150%;
+}
+
+article.tipo2 th{
+    width: 3em;
+    border-bottom: none;
+    border-top: none
+}
+
+article.tipo3 table{
+    width: 53%;
+    height: 30%;
+    text-align: start;
+}
+
+article.tipo3 caption{
+    text-align: start;
+    font-variant: small-caps;
+    letter-spacing: 10px;
+    margin-bottom: 5px;
+}
+
+article.tipo3 td{
+    font-size: 65%;
+    height: 45px;
+    vertical-align: top;
+}
+
+article.tipo3 th{
+    width: 3em;
+    
+}
